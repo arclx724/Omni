@@ -1,9 +1,9 @@
 kurigram
 tgcrypto
 hydragram
-pymongo==4.3.3
+pymongo==4.6.3
 python-dotenv==0.21.0
-aiohttp==3.7.4.post0
+aiohttp==3.13.3
 python-telegram-bot==20.6
 apscheduler
 asyncio
