@@ -26,39 +26,30 @@ StartPic = [
 ]
 
 class Config:
-    API_ID = 8042205941  # Replace with your API ID
-    API_HASH = "fe300e4c648c0389a1d8ddd853ebccc1"  # Replace with your API Hash
-    BOT_TOKEN = "8238728169:AAF0oyGa5kBIrzfRP2v8AhJbfh2NIog23ds"  # Replace with your Bot Token generate from @BotFather
+    API_ID = 8042205941
+    API_HASH = "fe300e4c648c0389a1d8ddd853ebccc1"
+    BOT_TOKEN = "8238728169:AAF0oyGa5kBIrzfRP2v8AhJbfh2NIog23ds"
     TOKEN = BOT_TOKEN
-    MONGO_URI = "mongodb+srv://arclx724_db_user:arclx724_db_user@cluster0.czhpczm.mongodb.net/?appName=Cluster0"  # Replace with your MongoDB URI
-    OWNERS = [
-        8042205941,  # (Creator)
-        7432650544,  #  (Sukuna)
-        1284920298,  # (Romeo Sama)
-        5907205317,  # (Karma)
-        5881613383,  # ( Anox )
-    ]  # Replace with the owner IDs
+    MONGO_URI = "mongodb+srv://arclx724_db_user:arclx724_db_user@cluster0.czhpczm.mongodb.net/?appName=Cluster0"
+    OWNERS = [8042205941, 7432650544, 1284920298, 5907205317, 5881613383]
     DATABASE_NAME = "AnonymousDB"
-    LOGS = -1002105665930 # Replace with your logs channel Id
-    SESSION = "STRING_SESSION"    # String Session for userbot
-    LOG_CHANNEL_ID = -1002105665930 # Replace with your logs channel Id 
+    LOGS = -1002105665930
+    SESSION = "STRING_SESSION"
+    LOG_CHANNEL_ID = -1002105665930
     BOT_USERNAME = "MissBillieBot"
     PREFIX_HANDLER = ["/", "!", "toji ", "Toji "]
     BOT_NAME = "Toji • Fushiguro"
     OWNER_ID = 6346273488
     DEV_USERS = [5907205317, 5881613383, 1284920298, 1805959544, 8171988347]
+    
+    # --- New Keys (Inside Class) ---
+    OPENROUTER_API_KEY = "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"
+    SIGHT_USER = "222232214"
+    SIGHT_SECRET = "3DHj7xorvBEZtPaLFJLwBP86L8qbzrN9"
 
-
+# Global Variables
 OWNER = 6346273488
 DEVUSERS = [5907205317, 5881613383, 1284920298, 1805959544, 8171988347]
-    
 DEV_LEVEL = set(DEVUSERS + [int(OWNER)])
-
-
-
 SUDOERS = filters.user()
 BANNED_USERS = filters.user()
-# Is file me ye keys add kar lo agar nahi hai to:
-OPENROUTER_API_KEY = "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"
-SIGHT_USER = "222232214"
-SIGHT_SECRET = "3DHj7xorvBEZtPaLFJLwBP86L8qbzrN9"
